@@ -199,12 +199,14 @@ const Cart = () => {
                 </div>
               </div>
               
-              <button type="submit" className="auth-btn">
-                Proceed to Payment
-              </button>
-              <button type="button" className="back-btn" onClick={() => setShowCheckout(false)}>
-                Back to Cart
-              </button>
+              <div className="checkout-actions">
+                <button type="submit" className="auth-btn">
+                  Proceed to Payment
+                </button>
+                <button type="button" className="back-btn" onClick={() => setShowCheckout(false)}>
+                  Back to Cart
+                </button>
+              </div>
             </form>
           </div>
         </div>
